@@ -2,14 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 
-const BaseComponent = ({
+const ExampleComponent = ({
   message,
 }) => (
   <p>Component JSX goes here.  Message: { message }</p>
 );
 
-BaseComponent.propTypes = {
+ExampleComponent.propTypes = {
   message: PropTypes.string.isRequired,
 };
 
-export default BaseComponent;
+export default ExampleComponent;
